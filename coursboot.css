@@ -1,0 +1,137 @@
+
+/* navigation */
+
+.navbar{
+    height: 100px; 
+ }
+
+ .collapse {
+    justify-content: flex-end;
+ }
+
+.btn-danger {
+    background-color: #c2166d;
+    border: #c2166d;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.profil {
+    background-color: blue;
+    border: none;
+}
+
+
+/* header */
+
+#home {
+    height: 620px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/07/11/02/guitar-756326_1280.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+.container1 {
+    text-align: center;
+    padding-top: 250px;
+}
+
+.title {
+    font-size: 50px;
+    color: white;
+}
+
+.title2 {
+    font-size: 36px; 
+    color: rgb(255, 255, 255);
+}
+
+/* section */
+
+#section1 {
+    background-color: rgb(197, 197, 197);
+}
+.title3 {
+    font-size: 36px;
+    text-align: center; 
+    padding-top: 50px;
+    color: rgb(5, 5, 5);
+}
+
+
+.btn-info {
+    margin-top: 30px; 
+}
+
+.container  {
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.card-body {
+    width: 300px;
+    margin-right: 50px;
+}
+
+
+.fill-rule{
+    border-color: 30px;
+  }
+
+  .test-body {
+      background-color: rgb(255, 255, 255);
+      margin-bottom: 50px;
+      padding-bottom: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  
+ .test-title {
+     padding-top: 30px;
+ }
+  
+  .badge {
+    background-color: green;
+    border-radius : 0px;
+  }
+
+  /* footer */
+
+
+  
+  .nav
+  {
+      height: 150px;
+      padding-top: 50px;
+  }
+
+  .nav-brand { 
+      height: 100px;
+      padding-left: 30px;
+      
+  }
+
+
+    /* Media Queries */
+
+    @media all and (max-width: 900px)
+{
+    .test-title
+    {
+        color: red; 
+    }
+}
+
+
+@media all and (max-width: 1024px)
+{
+    .test-body
+    {
+        background-color: rgb(195, 224, 137);
+    }
+}
+
+
